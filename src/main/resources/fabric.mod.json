@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "spadblock",
+  "version": "${version}",
+  "name": "SP Adblock",
+  "description": "Мод, скрывающий рекламу в чате СП",
+  "authors": [
+    "Avro170, DocPaint"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/sp-adblock",
+    "sources": "https://github.com/Avro17/SP-Adblock",
+    "issues": "https://github.com/Avro17/SP-Adblock/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/spadblock/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "org.avro.spadblock.SPAdblock"
+    ],
+    "client": [
+      "org.avro.spadblock.client.SPAdblockClient"
+    ],
+    "modmenu": [
+      "org.avro.spadblock.client.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.modrinth": "https://modrinth.com/mod/sp-adblock",
+        "modmenu.discord": "https://discord.gg/entnFUnBBb"
+      },
+      "update_checker": true
+    }
+  }
+}
