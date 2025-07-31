@@ -5,6 +5,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
+import net.minecraft.command.CommandSource;
 import net.minecraft.text.Text;
 import org.avro.spadblock.client.SPAdblockClient;
 
@@ -19,6 +20,9 @@ public class AdblockCommand {
                                 .executes(AdblockCommand::addWord)))
                 .then(ClientCommandManager.literal("remove")
                         .then(ClientCommandManager.argument("word", StringArgumentType.greedyString())
+                                .suggests((context, builder) ->
+                                        CommandSource.suggestMatching(SPAdblockClient.getConfigManager().getLocalWordsAsList(), builder)
+                                )
                                 .executes(AdblockCommand::removeWord)))
                 .then(ClientCommandManager.literal("list")
                         .executes(AdblockCommand::listWords))
