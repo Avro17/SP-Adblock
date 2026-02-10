@@ -1,0 +1,22 @@
+{
+  "gui.spadblock.config.title": "SP Adblock Configuration",
+  "config.spadblock.default1": "FrogTown",
+  "config.spadblock.default2": "Full Block",
+  "config.spadblock.local": "Local Word Filter",
+  "config.spadblock.custom_prefix": "Custom: ",
+
+  "commands.spadblock.add.success": "Word '%s' has been added to the local filter.",
+  "commands.spadblock.remove.success": "Word '%s' has been removed from the local filter.",
+  "commands.spadblock.list.header": "--- Local Adblock List ---",
+  "commands.spadblock.list.empty": "Your local adblock list is empty.",
+  "commands.spadblock.list.footer": "--------------------------",
+
+  "commands.spadblock.mute.success": "Player '%s' has been added to the mute list.",
+  "commands.spadblock.mute.fail": "Player '%s' not found online.",
+  "commands.spadblock.unmute.success": "Player '%s' has been removed from the mute list.",
+  "commands.spadblock.unmute.fail": "Player '%s' not found online. UUID could not be resolved.",
+
+  "commands.spadblock.mutelist.header": "--- Muted Players ---",
+  "commands.spadblock.mutelist.empty": "Your mute list is empty.",
+  "commands.spadblock.mutelist.footer": "---------------------"
+}

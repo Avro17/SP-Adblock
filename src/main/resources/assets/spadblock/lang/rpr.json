@@ -1,0 +1,22 @@
+{
+  "gui.spadblock.config.title": "Настройки SP Adblock",
+  "config.spadblock.default1": "Прыградъ",
+  "config.spadblock.default2": "Полная блокировка",
+  "config.spadblock.local": "Локальный фильтръ словъ",
+  "config.spadblock.custom_prefix": "Свой: ",
+
+  "commands.spadblock.add.success": "Слово '%s' добавлено въ локальный фильтръ.",
+  "commands.spadblock.remove.success": "Слово '%s' удалено изъ локальнаго фильтра.",
+  "commands.spadblock.list.header": "--- Локальный списокъ блокировки ---",
+  "commands.spadblock.list.empty": "Вашъ локальный списокъ блокировки пустъ.",
+  "commands.spadblock.list.footer": "---------------------------------",
+
+  "commands.spadblock.mute.success": "Игрокъ '%s' добавленъ въ мьютъ-листъ.",
+  "commands.spadblock.mute.fail": "Игрокъ съ никомъ '%s' не найденъ онлайн.",
+  "commands.spadblock.unmute.success": "Игрокъ '%s' удаленъ изъ мьютъ-листа.",
+  "commands.spadblock.unmute.fail": "Игрокъ съ никомъ '%s' не найденъ онлайн. Не удалось опредѣлить UUID.",
+
+  "commands.spadblock.mutelist.header": "--- Замьюченные игроки ---",
+  "commands.spadblock.mutelist.empty": "Вашъ мьютъ-листъ пустъ.",
+  "commands.spadblock.mutelist.footer": "--------------------------"
+}

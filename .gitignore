@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Minecraft
+run/
+logs/
+crash-reports/
+
+# OS
+.DS_Store
+Thumbs.db
